@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dcc:digitalCalibrationCertificate xmlns:dcc="https://ptb.de/dcc" xmlns:si="https://ptb.de/si" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="3.3.0">
+    <dcc:administrativeData>
+        <dcc:dccSoftware>
+            <dcc:software>
+                <dcc:name><dcc:content lang="pt">DCC Editor GUI</dcc:content></dcc:name>
+                <dcc:release>5.8</dcc:release>
+            </dcc:software>
+        </dcc:dccSoftware>
+        <dcc:coreData>
+            <dcc:countryCodeISO3166_1>BR</dcc:countryCodeISO3166_1>
+            <dcc:usedLangCodeISO639_1>pt</dcc:usedLangCodeISO639_1>
+            <dcc:mandatoryLangCodeISO639_1>pt</dcc:mandatoryLangCodeISO639_1>
+            <dcc:uniqueIdentifier>NOVO-CERT-0000</dcc:uniqueIdentifier>
+            <dcc:beginPerformanceDate>2026-01-01</dcc:beginPerformanceDate>
+            <dcc:endPerformanceDate>2026-01-01</dcc:endPerformanceDate>
+            <dcc:performanceLocation>laboratory</dcc:performanceLocation>
+        </dcc:coreData>
+        <dcc:items>
+            <dcc:item id="item_1">
+                <dcc:name><dcc:content lang="pt">Equipamento</dcc:content></dcc:name>
+                <dcc:description><dcc:content lang="pt">Descrição do Equipamento</dcc:content></dcc:description>
+                <dcc:identifications>
+                    <dcc:identification>
+                        <dcc:issuer>manufacturer</dcc:issuer>
+                        <dcc:value>SN-0000</dcc:value>
+                    </dcc:identification>
+                </dcc:identifications>
+            </dcc:item>
+        </dcc:items>
+        <dcc:calibrationLaboratory>
+            <dcc:contact>
+                <dcc:name><dcc:content lang="pt">Nome do Laboratório</dcc:content></dcc:name>
+                <dcc:eMail>email@lab.com</dcc:eMail>
+                <dcc:location>
+                    <dcc:city>Cidade</dcc:city>
+                    <dcc:countryCode>BR</dcc:countryCode>
+                    <dcc:postCode>00000-000</dcc:postCode>
+                </dcc:location>
+            </dcc:contact>
+        </dcc:calibrationLaboratory>
+        <dcc:respPersons>
+            <dcc:respPerson id="resp_1">
+                <dcc:person>
+                    <dcc:name><dcc:content lang="pt">Nome do Signatário</dcc:content></dcc:name>
+                </dcc:person>
+                <dcc:mainSigner>true</dcc:mainSigner>
+            </dcc:respPerson>
+        </dcc:respPersons>
+        <dcc:customer>
+            <dcc:name><dcc:content lang="pt">Nome do Cliente</dcc:content></dcc:name>
+            <dcc:eMail>cliente@email.com</dcc:eMail>
+            <dcc:location>
+                <dcc:city>Cidade</dcc:city>
+                <dcc:countryCode>BR</dcc:countryCode>
+                <dcc:postCode>00000-000</dcc:postCode>
+            </dcc:location>
+        </dcc:customer>
+    </dcc:administrativeData>
+    <dcc:measurementResults>
+        <dcc:measurementResult id="meas_1">
+            <dcc:name><dcc:content lang="pt">Resultados da Calibração</dcc:content></dcc:name>
+            <dcc:results>
+                <dcc:result id="res_1">
+                    <dcc:name><dcc:content lang="pt">Dados de Medição</dcc:content></dcc:name>
+                    <dcc:data>
+                        <dcc:quantity id="quant_1">
+                            <dcc:name><dcc:content lang="pt">Grandeza Exemplo</dcc:content></dcc:name>
+                            <dcc:noQuantity>
+                                <dcc:content lang="pt">A aguardar dados da medição</dcc:content>
+                            </dcc:noQuantity>
+                        </dcc:quantity>
+                    </dcc:data>
+                </dcc:result>
+            </dcc:results>
+        </dcc:measurementResult>
+    </dcc:measurementResults>
+</dcc:digitalCalibrationCertificate>
