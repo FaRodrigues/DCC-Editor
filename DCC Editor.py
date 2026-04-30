@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# DCC Editor version 5.4 (2025)
+# DCC Editor version 6.0 (2026)
 # Author: Fernando Rodrigues (Inmetro)
 # Author: Gustavo Chieza (Inmetro)
 
