@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # DCC Editor version 5.4 (2025)
-# Autor: Gustavo Chieza | Fernando Alves Rodrigues
-# Empresa: Inmetro
+# Author: Fernando Alves Rodrigues | Gustavo Chieza
+# Inmetro
 
 import sys
 import os
