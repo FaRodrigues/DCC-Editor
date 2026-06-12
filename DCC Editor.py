@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # DCC Editor & Creator version 6.0 (2026) - Modular Version
-# Autor:
+# Author: Fernando Rodrigues and Gustavo Chieza
 
 import os
 import sys
